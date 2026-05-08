@@ -1,0 +1,217 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["buka_2"] = Instance.new("ImageButton", LMG2L["ScreenGui_1"]);
+LMG2L["buka_2"]["BorderSizePixel"] = 0;
+LMG2L["buka_2"]["BackgroundTransparency"] = 1;
+-- LMG2L["buka_2"]["ImageContent"] = ;
+LMG2L["buka_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["buka_2"]["Image"] = [[rbxassetid://130289512646054]];
+LMG2L["buka_2"]["Size"] = UDim2.new(0, 80, 0, 86);
+LMG2L["buka_2"]["Name"] = [[buka]];
+LMG2L["buka_2"]["Position"] = UDim2.new(0, 36, 0, 186);
+
+
+LMG2L["ImageLabel_3"] = Instance.new("ImageLabel", LMG2L["buka_2"]);
+LMG2L["ImageLabel_3"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_3"]["ImageContent"] = ;
+LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://98866151809636]];
+LMG2L["ImageLabel_3"]["Size"] = UDim2.new(0, 120, 0, 120);
+LMG2L["ImageLabel_3"]["BackgroundTransparency"] = 1;
+LMG2L["ImageLabel_3"]["Position"] = UDim2.new(0, -18, 0, -18);
+
+
+LMG2L["LocalScript_4"] = Instance.new("LocalScript", LMG2L["ImageLabel_3"]);
+
+
+
+LMG2L["ImageLabel_5"] = Instance.new("ImageLabel", LMG2L["ImageLabel_3"]);
+LMG2L["ImageLabel_5"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_5"]["ImageContent"] = ;
+LMG2L["ImageLabel_5"]["Image"] = [[rbxassetid://130289512646054]];
+LMG2L["ImageLabel_5"]["Size"] = UDim2.new(0, 32, 0, 34);
+LMG2L["ImageLabel_5"]["BackgroundTransparency"] = 1;
+LMG2L["ImageLabel_5"]["Position"] = UDim2.new(0, 98, 0, 4);
+
+
+LMG2L["LocalScript_6"] = Instance.new("LocalScript", LMG2L["ImageLabel_5"]);
+
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["ScreenGui_1"]);
+
+
+
+LMG2L["Frame_8"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_8"]["BorderSizePixel"] = 0;
+LMG2L["Frame_8"]["BackgroundColor3"] = Color3.fromRGB(161, 0, 0);
+LMG2L["Frame_8"]["Size"] = UDim2.new(0, 476, 0, 246);
+LMG2L["Frame_8"]["Position"] = UDim2.new(0, 158, 0, -2);
+LMG2L["Frame_8"]["BackgroundTransparency"] = 0.5;
+
+
+LMG2L["UICorner_9"] = Instance.new("UICorner", LMG2L["Frame_8"]);
+
+
+
+LMG2L["TextButton2_a"] = Instance.new("TextButton", LMG2L["Frame_8"]);
+LMG2L["TextButton2_a"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_a"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton2_a"]["BackgroundColor3"] = Color3.fromRGB(43, 43, 43);
+LMG2L["TextButton2_a"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton2_a"]["Size"] = UDim2.new(0, 124, 0, 26);
+LMG2L["TextButton2_a"]["Text"] = [[remove]];
+LMG2L["TextButton2_a"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_a"]["Position"] = UDim2.new(0, 142, 0, 8);
+
+
+LMG2L["UICorner_b"] = Instance.new("UICorner", LMG2L["TextButton2_a"]);
+
+
+
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextButton2_a"]);
+
+
+
+LMG2L["UIStroke_d"] = Instance.new("UIStroke", LMG2L["TextButton2_a"]);
+LMG2L["UIStroke_d"]["Color"] = Color3.fromRGB(255, 255, 0);
+
+
+LMG2L["UIStroke_e"] = Instance.new("UIStroke", LMG2L["Frame_8"]);
+LMG2L["UIStroke_e"]["Thickness"] = 3;
+LMG2L["UIStroke_e"]["Color"] = Color3.fromRGB(255, 255, 0);
+
+
+LMG2L["TextButton_f"] = Instance.new("TextButton", LMG2L["Frame_8"]);
+LMG2L["TextButton_f"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_f"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextButton_f"]["BackgroundColor3"] = Color3.fromRGB(43, 43, 43);
+LMG2L["TextButton_f"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton_f"]["Size"] = UDim2.new(0, 124, 0, 26);
+LMG2L["TextButton_f"]["Text"] = [[executor]];
+LMG2L["TextButton_f"]["Position"] = UDim2.new(0, 12, 0, 8);
+
+
+LMG2L["UICorner_10"] = Instance.new("UICorner", LMG2L["TextButton_f"]);
+
+
+
+LMG2L["LocalScript_11"] = Instance.new("LocalScript", LMG2L["TextButton_f"]);
+
+
+
+LMG2L["UIStroke_12"] = Instance.new("UIStroke", LMG2L["TextButton_f"]);
+LMG2L["UIStroke_12"]["Color"] = Color3.fromRGB(255, 255, 0);
+
+
+LMG2L["TextLabel_13"] = Instance.new("TextLabel", LMG2L["Frame_8"]);
+LMG2L["TextLabel_13"]["TextWrapped"] = true;
+LMG2L["TextLabel_13"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_13"]["TextScaled"] = true;
+LMG2L["TextLabel_13"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextLabel_13"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextLabel_13"]["BackgroundTransparency"] = 1;
+LMG2L["TextLabel_13"]["Size"] = UDim2.new(0, 194, 0, 24);
+LMG2L["TextLabel_13"]["Text"] = [[executor loadstring vn]];
+LMG2L["TextLabel_13"]["Position"] = UDim2.new(0, 272, 0, 10);
+
+
+LMG2L["UIStroke_14"] = Instance.new("UIStroke", LMG2L["TextLabel_13"]);
+LMG2L["UIStroke_14"]["Color"] = Color3.fromRGB(255, 255, 0);
+
+
+LMG2L["TextBox_15"] = Instance.new("TextBox", LMG2L["Frame_8"]);
+LMG2L["TextBox_15"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_15"]["BorderSizePixel"] = 2;
+LMG2L["TextBox_15"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_15"]["BackgroundColor3"] = Color3.fromRGB(43, 43, 43);
+LMG2L["TextBox_15"]["ClipsDescendants"] = true;
+LMG2L["TextBox_15"]["Size"] = UDim2.new(0, 456, 0, 198);
+LMG2L["TextBox_15"]["Position"] = UDim2.new(0, 12, 0, 38);
+LMG2L["TextBox_15"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_15"]["BackgroundTransparency"] = 0.6;
+
+
+LMG2L["UICorner_16"] = Instance.new("UICorner", LMG2L["TextBox_15"]);
+
+
+
+LMG2L["UIStroke_17"] = Instance.new("UIStroke", LMG2L["TextBox_15"]);
+LMG2L["UIStroke_17"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["UIDragDetector_18"] = Instance.new("UIDragDetector", LMG2L["Frame_8"]);
+
+
+
+local function C_4()
+	local script = LMG2L["LocalScript_4"];
+	  while wait(.01) do	
+	        script.Parent.Rotation = script.Parent.Rotation + 1	
+	    end	
+	
+end;
+task.spawn(C_4);
+local function C_6()
+	local script = LMG2L["LocalScript_6"];
+	  while wait(.01) do	
+	        script.Parent.Rotation = script.Parent.Rotation - 1	
+	    end	
+	
+end;
+task.spawn(C_6);
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local screengui = script.Parent	
+	local isi = screengui:WaitForChild("Frame") 	
+	local buka = screengui:WaitForChild("buka") 	
+	buka.MouseButton1Click:Connect(function()	
+	if isi.Visible == false then	
+	isi.Visible = true	
+	else	
+	isi.Visible = false	
+	end	
+	end)	
+end;
+task.spawn(C_7);
+local function C_c()
+	local script = LMG2L["LocalScript_c"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	textBox.Text = ""	
+	end)	
+end;
+task.spawn(C_c);
+local function C_11()
+	local script = LMG2L["LocalScript_11"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	local code = textBox.Text	
+	if code ~= "" then	
+	pcall(function()	
+	loadstring(code)()	
+	end)	
+	end	
+	end)	
+end;
+task.spawn(C_11);
+
+return LMG2L["ScreenGui_1"], require;

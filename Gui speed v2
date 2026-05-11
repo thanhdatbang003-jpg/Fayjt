@@ -1,0 +1,72 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "gui speed by datvilaphop0969 v2",
+   LoadingTitle = "Đang tải Script...",
+   LoadingSubtitle = "by datvilaphop",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "AureusSettings", -- Thư mục lưu cài đặt
+      FileName = "MyScriptConfig"
+   },
+   KeySystem = false, -- Chỉnh thành true nếu muốn đặt mật khẩu
+})
+
+-- TAB CHÍNH
+local MainTab = Window:CreateTab("🏠 Trang chủ", 4483362458) -- Icon ID
+local Section = MainTab:CreateSection("Tính năng nhân vật")
+
+-- 1. Nút bấm (Button)
+MainTab:CreateButton({
+   Name = "Nhận Full Trang Bị",
+   Callback = function()
+       print("Đã nhận trang bị!")
+       -- Code thực thi của bạn ở đây
+   end,
+})
+
+-- 2. Công tắc (Toggle)
+MainTab:CreateToggle({
+   Name = "Tự động Farm (Auto Farm)",
+   CurrentValue = false,
+   Flag = "Toggle1", 
+   Callback = function(Value)
+       _G.AutoFarm = Value
+       while _G.AutoFarm do
+           task.wait(1)
+           print("Đang farm...")
+           -- Chèn code auto farm của bạn vào đây
+       end
+   end,
+})
+
+-- 3. Thanh trượt (Slider)
+MainTab:CreateSlider({
+   Name = "Tốc độ chạy (Speed)",
+   Range = {16, 500},
+   Increment = 1,
+   Suffix = "Tốc độ",
+   CurrentValue = 16,
+   Flag = "Slider1",
+   Callback = function(Value)
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+   end,
+})
+
+-- TAB HỖ TRỢ
+local MiscTab = Window:CreateTab("⚙️ Hệ thống", 4483362458)
+MiscTab:CreateLabel("Script hỗ trợ tốt nhất trên server")
+
+-- Thông báo khi load xong
+Rayfield:Notify({
+   Title = "Thành công!",
+   Content = "GUI đã được tải lên sever",
+   Duration = 5,
+   Image = 116933737840705,
+   Actions = {
+      Ignore = {
+         Name = "Đồng ý!",
+         Callback = function() print("Người dùng đã xác nhận") end
+      },
+   },
+})

@@ -1,0 +1,1830 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 53 | Scripts: 24 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 3;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 532, 0, 490);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 8, 0, 30);
+LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton15
+LMG2L["TextButton15_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton15_3"]["TextWrapped"] = true;
+LMG2L["TextButton15_3"]["BorderSizePixel"] = 2;
+LMG2L["TextButton15_3"]["TextScaled"] = true;
+LMG2L["TextButton15_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton15_3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton15_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton15_3"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton15_3"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton15_3"]["Text"] = [[title]];
+LMG2L["TextButton15_3"]["Name"] = [[TextButton15]];
+LMG2L["TextButton15_3"]["Position"] = UDim2.new(0, 272, 0, 206);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton15.LocalScript
+LMG2L["LocalScript_4"] = Instance.new("LocalScript", LMG2L["TextButton15_3"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton13
+LMG2L["TextButton13_5"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton13_5"]["TextWrapped"] = true;
+LMG2L["TextButton13_5"]["BorderSizePixel"] = 2;
+LMG2L["TextButton13_5"]["TextScaled"] = true;
+LMG2L["TextButton13_5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton13_5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton13_5"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton13_5"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton13_5"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton13_5"]["Text"] = [[music 2]];
+LMG2L["TextButton13_5"]["Name"] = [[TextButton13]];
+LMG2L["TextButton13_5"]["Position"] = UDim2.new(0, 28, 0, 206);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton13.LocalScript
+LMG2L["LocalScript_6"] = Instance.new("LocalScript", LMG2L["TextButton13_5"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton7
+LMG2L["TextButton7_7"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton7_7"]["TextWrapped"] = true;
+LMG2L["TextButton7_7"]["BorderSizePixel"] = 2;
+LMG2L["TextButton7_7"]["TextScaled"] = true;
+LMG2L["TextButton7_7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton7_7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton7_7"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton7_7"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton7_7"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton7_7"]["Text"] = [[music]];
+LMG2L["TextButton7_7"]["Name"] = [[TextButton7]];
+LMG2L["TextButton7_7"]["Position"] = UDim2.new(0, 272, 0, 108);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton7.LocalScript
+LMG2L["LocalScript_8"] = Instance.new("LocalScript", LMG2L["TextButton7_7"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton2
+LMG2L["TextButton2_9"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton2_9"]["TextWrapped"] = true;
+LMG2L["TextButton2_9"]["BorderSizePixel"] = 2;
+LMG2L["TextButton2_9"]["TextScaled"] = true;
+LMG2L["TextButton2_9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_9"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton2_9"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton2_9"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton2_9"]["Text"] = [[decal]];
+LMG2L["TextButton2_9"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_9"]["Position"] = UDim2.new(0, 150, 0, 58);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton2.LocalScript
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["TextButton2_9"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton8
+LMG2L["TextButton8_b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton8_b"]["TextWrapped"] = true;
+LMG2L["TextButton8_b"]["BorderSizePixel"] = 2;
+LMG2L["TextButton8_b"]["TextScaled"] = true;
+LMG2L["TextButton8_b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton8_b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton8_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton8_b"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton8_b"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton8_b"]["Text"] = [[r6]];
+LMG2L["TextButton8_b"]["Name"] = [[TextButton8]];
+LMG2L["TextButton8_b"]["Position"] = UDim2.new(0, 394, 0, 108);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton8.LocalScript
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextButton8_b"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton6
+LMG2L["TextButton6_d"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton6_d"]["TextWrapped"] = true;
+LMG2L["TextButton6_d"]["BorderSizePixel"] = 2;
+LMG2L["TextButton6_d"]["TextScaled"] = true;
+LMG2L["TextButton6_d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton6_d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton6_d"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton6_d"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton6_d"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton6_d"]["Text"] = [[trippy skybox]];
+LMG2L["TextButton6_d"]["Name"] = [[TextButton6]];
+LMG2L["TextButton6_d"]["Position"] = UDim2.new(0, 150, 0, 108);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton6.LocalScript
+LMG2L["LocalScript_e"] = Instance.new("LocalScript", LMG2L["TextButton6_d"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton5
+LMG2L["TextButton5_f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton5_f"]["TextWrapped"] = true;
+LMG2L["TextButton5_f"]["BorderSizePixel"] = 2;
+LMG2L["TextButton5_f"]["TextScaled"] = true;
+LMG2L["TextButton5_f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton5_f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton5_f"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton5_f"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton5_f"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton5_f"]["Text"] = [[theme]];
+LMG2L["TextButton5_f"]["Name"] = [[TextButton5]];
+LMG2L["TextButton5_f"]["Position"] = UDim2.new(0, 28, 0, 108);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton5.LocalScript
+LMG2L["LocalScript_10"] = Instance.new("LocalScript", LMG2L["TextButton5_f"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextLabel
+LMG2L["TextLabel_11"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["TextLabel_11"]["TextWrapped"] = true;
+LMG2L["TextLabel_11"]["BorderSizePixel"] = 3;
+LMG2L["TextLabel_11"]["TextScaled"] = true;
+LMG2L["TextLabel_11"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_11"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_11"]["Size"] = UDim2.new(0, 290, 0, 38);
+LMG2L["TextLabel_11"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextLabel_11"]["Text"] = [[gui s00jgui f3x v5]];
+LMG2L["TextLabel_11"]["Position"] = UDim2.new(0, 126, 0, 4);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.UIDragDetector
+LMG2L["UIDragDetector_12"] = Instance.new("UIDragDetector", LMG2L["Frame_2"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton22
+LMG2L["TextButton22_13"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton22_13"]["TextWrapped"] = true;
+LMG2L["TextButton22_13"]["BorderSizePixel"] = 2;
+LMG2L["TextButton22_13"]["TextScaled"] = true;
+LMG2L["TextButton22_13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton22_13"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton22_13"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton22_13"]["Size"] = UDim2.new(0, 62, 0, 36);
+LMG2L["TextButton22_13"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton22_13"]["Text"] = [[sword]];
+LMG2L["TextButton22_13"]["Name"] = [[TextButton22]];
+LMG2L["TextButton22_13"]["Position"] = UDim2.new(0, 28, 0, 8);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton22.LocalScript
+LMG2L["LocalScript_14"] = Instance.new("LocalScript", LMG2L["TextButton22_13"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton20
+LMG2L["TextButton20_15"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton20_15"]["TextWrapped"] = true;
+LMG2L["TextButton20_15"]["BorderSizePixel"] = 2;
+LMG2L["TextButton20_15"]["TextScaled"] = true;
+LMG2L["TextButton20_15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton20_15"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton20_15"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton20_15"]["Size"] = UDim2.new(0, 480, 0, 36);
+LMG2L["TextButton20_15"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton20_15"]["Text"] = [[ff]];
+LMG2L["TextButton20_15"]["Name"] = [[TextButton20]];
+LMG2L["TextButton20_15"]["Position"] = UDim2.new(0, 28, 0, 322);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton20.LocalScript
+LMG2L["LocalScript_16"] = Instance.new("LocalScript", LMG2L["TextButton20_15"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton17
+LMG2L["TextButton17_17"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton17_17"]["TextWrapped"] = true;
+LMG2L["TextButton17_17"]["BorderSizePixel"] = 2;
+LMG2L["TextButton17_17"]["TextScaled"] = true;
+LMG2L["TextButton17_17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton17_17"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton17_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton17_17"]["Size"] = UDim2.new(0, 158, 0, 36);
+LMG2L["TextButton17_17"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton17_17"]["Text"] = [[Me speed]];
+LMG2L["TextButton17_17"]["Name"] = [[TextButton17]];
+LMG2L["TextButton17_17"]["Position"] = UDim2.new(0, 28, 0, 254);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton17.LocalScript
+LMG2L["LocalScript_18"] = Instance.new("LocalScript", LMG2L["TextButton17_17"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton3
+LMG2L["TextButton3_19"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_19"]["TextWrapped"] = true;
+LMG2L["TextButton3_19"]["BorderSizePixel"] = 2;
+LMG2L["TextButton3_19"]["TextScaled"] = true;
+LMG2L["TextButton3_19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_19"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_19"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton3_19"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton3_19"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton3_19"]["Text"] = [[fire]];
+LMG2L["TextButton3_19"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_19"]["Position"] = UDim2.new(0, 272, 0, 58);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+LMG2L["LocalScript_1a"] = Instance.new("LocalScript", LMG2L["TextButton3_19"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton12
+LMG2L["TextButton12_1b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton12_1b"]["TextWrapped"] = true;
+LMG2L["TextButton12_1b"]["BorderSizePixel"] = 2;
+LMG2L["TextButton12_1b"]["TextScaled"] = true;
+LMG2L["TextButton12_1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton12_1b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton12_1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton12_1b"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton12_1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton12_1b"]["Text"] = [[message]];
+LMG2L["TextButton12_1b"]["Name"] = [[TextButton12]];
+LMG2L["TextButton12_1b"]["Position"] = UDim2.new(0, 394, 0, 158);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton12.LocalScript
+LMG2L["LocalScript_1c"] = Instance.new("LocalScript", LMG2L["TextButton12_1b"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton
+LMG2L["TextButton_1d"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_1d"]["TextWrapped"] = true;
+LMG2L["TextButton_1d"]["BorderSizePixel"] = 2;
+LMG2L["TextButton_1d"]["TextScaled"] = true;
+LMG2L["TextButton_1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_1d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton_1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1d"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton_1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton_1d"]["Text"] = [[Skybox]];
+LMG2L["TextButton_1d"]["Position"] = UDim2.new(0, 28, 0, 58);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton.LocalScript
+LMG2L["LocalScript_1e"] = Instance.new("LocalScript", LMG2L["TextButton_1d"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton4
+LMG2L["TextButton4_1f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton4_1f"]["TextWrapped"] = true;
+LMG2L["TextButton4_1f"]["BorderSizePixel"] = 2;
+LMG2L["TextButton4_1f"]["TextScaled"] = true;
+LMG2L["TextButton4_1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_1f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton4_1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton4_1f"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton4_1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton4_1f"]["Text"] = [[disco]];
+LMG2L["TextButton4_1f"]["Name"] = [[TextButton4]];
+LMG2L["TextButton4_1f"]["Position"] = UDim2.new(0, 394, 0, 58);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton4.LocalScript
+LMG2L["LocalScript_20"] = Instance.new("LocalScript", LMG2L["TextButton4_1f"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton11
+LMG2L["TextButton11_21"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton11_21"]["TextWrapped"] = true;
+LMG2L["TextButton11_21"]["BorderSizePixel"] = 2;
+LMG2L["TextButton11_21"]["TextScaled"] = true;
+LMG2L["TextButton11_21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton11_21"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton11_21"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton11_21"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton11_21"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton11_21"]["Text"] = [[hint]];
+LMG2L["TextButton11_21"]["Name"] = [[TextButton11]];
+LMG2L["TextButton11_21"]["Position"] = UDim2.new(0, 272, 0, 158);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton11.LocalScript
+LMG2L["LocalScript_22"] = Instance.new("LocalScript", LMG2L["TextButton11_21"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton18
+LMG2L["TextButton18_23"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton18_23"]["TextWrapped"] = true;
+LMG2L["TextButton18_23"]["BorderSizePixel"] = 2;
+LMG2L["TextButton18_23"]["TextScaled"] = true;
+LMG2L["TextButton18_23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton18_23"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton18_23"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton18_23"]["Size"] = UDim2.new(0, 150, 0, 36);
+LMG2L["TextButton18_23"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton18_23"]["Text"] = [[kill all]];
+LMG2L["TextButton18_23"]["Name"] = [[TextButton18]];
+LMG2L["TextButton18_23"]["Position"] = UDim2.new(0, 194, 0, 254);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton18.LocalScript
+LMG2L["LocalScript_24"] = Instance.new("LocalScript", LMG2L["TextButton18_23"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton24
+LMG2L["TextButton24_25"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton24_25"]["TextWrapped"] = true;
+LMG2L["TextButton24_25"]["BorderSizePixel"] = 2;
+LMG2L["TextButton24_25"]["TextScaled"] = true;
+LMG2L["TextButton24_25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton24_25"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton24_25"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton24_25"]["Size"] = UDim2.new(0, 482, 0, 36);
+LMG2L["TextButton24_25"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton24_25"]["Text"] = [[sit all]];
+LMG2L["TextButton24_25"]["Name"] = [[TextButton24]];
+LMG2L["TextButton24_25"]["Position"] = UDim2.new(0, 28, 0, 426);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton24.LocalScript
+LMG2L["LocalScript_26"] = Instance.new("LocalScript", LMG2L["TextButton24_25"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton21
+LMG2L["TextButton21_27"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton21_27"]["TextWrapped"] = true;
+LMG2L["TextButton21_27"]["BorderSizePixel"] = 2;
+LMG2L["TextButton21_27"]["TextScaled"] = true;
+LMG2L["TextButton21_27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton21_27"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton21_27"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton21_27"]["Size"] = UDim2.new(0, 480, 0, 36);
+LMG2L["TextButton21_27"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton21_27"]["Text"] = [[fling all]];
+LMG2L["TextButton21_27"]["Name"] = [[TextButton21]];
+LMG2L["TextButton21_27"]["Position"] = UDim2.new(0, 28, 0, 374);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton21.LocalScript
+LMG2L["LocalScript_28"] = Instance.new("LocalScript", LMG2L["TextButton21_27"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton9
+LMG2L["TextButton9_29"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton9_29"]["TextWrapped"] = true;
+LMG2L["TextButton9_29"]["BorderSizePixel"] = 2;
+LMG2L["TextButton9_29"]["TextScaled"] = true;
+LMG2L["TextButton9_29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton9_29"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton9_29"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton9_29"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton9_29"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton9_29"]["Text"] = [[re]];
+LMG2L["TextButton9_29"]["Name"] = [[TextButton9]];
+LMG2L["TextButton9_29"]["Position"] = UDim2.new(0, 28, 0, 158);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton9.LocalScript
+LMG2L["LocalScript_2a"] = Instance.new("LocalScript", LMG2L["TextButton9_29"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton19
+LMG2L["TextButton19_2b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton19_2b"]["TextWrapped"] = true;
+LMG2L["TextButton19_2b"]["BorderSizePixel"] = 2;
+LMG2L["TextButton19_2b"]["TextScaled"] = true;
+LMG2L["TextButton19_2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton19_2b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton19_2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton19_2b"]["Size"] = UDim2.new(0, 156, 0, 36);
+LMG2L["TextButton19_2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton19_2b"]["Text"] = [[title 2]];
+LMG2L["TextButton19_2b"]["Name"] = [[TextButton19]];
+LMG2L["TextButton19_2b"]["Position"] = UDim2.new(0, 352, 0, 254);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton19.LocalScript
+LMG2L["LocalScript_2c"] = Instance.new("LocalScript", LMG2L["TextButton19_2b"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton23
+LMG2L["TextButton23_2d"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton23_2d"]["TextWrapped"] = true;
+LMG2L["TextButton23_2d"]["BorderSizePixel"] = 2;
+LMG2L["TextButton23_2d"]["TextScaled"] = true;
+LMG2L["TextButton23_2d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton23_2d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton23_2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton23_2d"]["Size"] = UDim2.new(0, 62, 0, 36);
+LMG2L["TextButton23_2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton23_2d"]["Name"] = [[TextButton23]];
+LMG2L["TextButton23_2d"]["Position"] = UDim2.new(0, 446, 0, 10);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton23.LocalScript
+LMG2L["LocalScript_2e"] = Instance.new("LocalScript", LMG2L["TextButton23_2d"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton14
+LMG2L["TextButton14_2f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton14_2f"]["TextWrapped"] = true;
+LMG2L["TextButton14_2f"]["BorderSizePixel"] = 2;
+LMG2L["TextButton14_2f"]["TextScaled"] = true;
+LMG2L["TextButton14_2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton14_2f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton14_2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton14_2f"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton14_2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton14_2f"]["Text"] = [[hint 2]];
+LMG2L["TextButton14_2f"]["Name"] = [[TextButton14]];
+LMG2L["TextButton14_2f"]["Position"] = UDim2.new(0, 150, 0, 206);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton14.LocalScript
+LMG2L["LocalScript_30"] = Instance.new("LocalScript", LMG2L["TextButton14_2f"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton10
+LMG2L["TextButton10_31"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton10_31"]["TextWrapped"] = true;
+LMG2L["TextButton10_31"]["BorderSizePixel"] = 2;
+LMG2L["TextButton10_31"]["TextScaled"] = true;
+LMG2L["TextButton10_31"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton10_31"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton10_31"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton10_31"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton10_31"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton10_31"]["Text"] = [[char all]];
+LMG2L["TextButton10_31"]["Name"] = [[TextButton10]];
+LMG2L["TextButton10_31"]["Position"] = UDim2.new(0, 150, 0, 158);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton10.LocalScript
+LMG2L["LocalScript_32"] = Instance.new("LocalScript", LMG2L["TextButton10_31"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton16
+LMG2L["TextButton16_33"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton16_33"]["TextWrapped"] = true;
+LMG2L["TextButton16_33"]["BorderSizePixel"] = 2;
+LMG2L["TextButton16_33"]["TextScaled"] = true;
+LMG2L["TextButton16_33"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton16_33"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton16_33"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton16_33"]["Size"] = UDim2.new(0, 114, 0, 36);
+LMG2L["TextButton16_33"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+LMG2L["TextButton16_33"]["Text"] = [[spin]];
+LMG2L["TextButton16_33"]["Name"] = [[TextButton16]];
+LMG2L["TextButton16_33"]["Position"] = UDim2.new(0, 394, 0, 206);
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton16.LocalScript
+LMG2L["LocalScript_34"] = Instance.new("LocalScript", LMG2L["TextButton16_33"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.UIDragDetector
+LMG2L["UIDragDetector_35"] = Instance.new("UIDragDetector", LMG2L["Frame_2"]);
+
+
+
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton15.LocalScript
+local function C_4()
+	local script = LMG2L["LocalScript_4"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";titledb all s00jkidd")	
+	    end)	
+end;
+task.spawn(C_4);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton13.LocalScript
+local function C_6()
+	local script = LMG2L["LocalScript_6"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";music 6129291390")	
+	        RequestCommand:InvokeServer(";volume inf ;pitch 0.14")	
+	    end)	
+end;
+task.spawn(C_6);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton7.LocalScript
+local function C_8()
+	local script = LMG2L["LocalScript_8"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";music 1839246711")	
+	        RequestCommand:InvokeServer(";volume inf ;pitch 0.6")	
+	    end)	
+end;
+task.spawn(C_8);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton2.LocalScript
+local function C_a()
+	local script = LMG2L["LocalScript_a"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local player = game.Players.LocalPlayer	
+	        local char = player.Character	
+	        local tool	
+	        for i,v in player:GetDescendants() do	
+	            if v.Name == "SyncAPI" then	
+	                tool = v.Parent	
+	            end	
+	        end	
+	        for i,v in game.ReplicatedStorage:GetDescendants() do	
+	            if v.Name == "SyncAPI" then	
+	                tool = v.Parent	
+	            end	
+	        end	
+	        remote = tool.SyncAPI.ServerEndpoint	
+	        function _(args)	
+	            remote:InvokeServer(unpack(args))	
+	        end	
+	        function SetCollision(part,boolean)	
+	            local args = {	
+	            [1] = "SyncCollision",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CanCollide"] = boolean	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetAnchor(boolean,part)	
+	            local args = {	
+	            [1] = "SyncAnchor",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Anchored"] = boolean	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function CreatePart(cf,parent)	
+	            local args = {	
+	            [1] = "CreatePart",	
+	            [2] = "Normal",	
+	            [3] = cf,	
+	            [4] = parent	
+	            }	
+	            _(args)	
+	        end	
+	        function DestroyPart(part)	
+	            local args = {	
+	            [1] = "Remove",	
+	            [2] = {	
+	            [1] = part	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function MovePart(part,cf)	
+	            local args = {	
+	            [1] = "SyncMove",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CFrame"] = cf	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function Resize(part,size,cf)	
+	            local args = {	
+	            [1] = "SyncResize",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CFrame"] = cf,	
+	            ["Size"] = size	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function AddMesh(part)	
+	            local args = {	
+	            [1] = "CreateMeshes",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        	
+	        function SetMesh(part,meshid)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["MeshId"] = "rbxassetid://"..meshid	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetTexture(part, texid)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["TextureId"] = "rbxassetid://"..texid	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetName(part, stringg)	
+	            local args = {	
+	            [1] = "SetName",	
+	            [2] = {	
+	            [1] = part	
+	            },	
+	            [3] = stringg	
+	            }	
+	            	
+	            _(args)	
+	        end	
+	        function MeshResize(part,size)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Scale"] = size	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function Weld(part1, part2,lead)	
+	            local args = {	
+	            [1] = "CreateWelds",	
+	            [2] = {	
+	            [1] = part1,	
+	            [2] = part2	
+	            },	
+	            [3] = lead	
+	            }	
+	            _(args)	
+	            	
+	        end	
+	        function SetLocked(part,boolean)	
+	            local args = {	
+	            [1] = "SetLocked",	
+	            [2] = {	
+	            [1] = part	
+	            },	
+	            [3] = boolean	
+	            }	
+	            _(args)	
+	        end	
+	        function SetTrans(part,int)	
+	            local args = {	
+	            [1] = "SyncMaterial",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Transparency"] = int	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function CreateSpotlight(part)	
+	            local args = {	
+	            [1] = "CreateLights",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["LightType"] = "SpotLight"	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SyncLighting(part,brightness)	
+	            local args = {	
+	            [1] = "SyncLighting",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["LightType"] = "SpotLight",	
+	            ["Brightness"] = brightness	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function Color(part,color)	
+	            local args = {	
+	            [1] = "SyncColor",[2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Color"] = color --[[Color3]],	
+	            ["UnionColoring"] = false	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SpawnDecal(part,side)	
+	            local args = {	
+	            [1] = "CreateTextures",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Face"] = side,	
+	            ["TextureType"] = "Decal"	
+	            }	
+	            }	
+	            }	
+	            	
+	            _(args)	
+	        end	
+	        function AddDecal(part,asset,side)	
+	            local args = {	
+	            [1] = "SyncTexture",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Face"] = side,	
+	            ["TextureType"] = "Decal",	
+	            ["Texture"] = "rbxassetid://".. asset	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        	
+	        function spam(id)	
+	            for i,v in game.workspace:GetDescendants() do	
+	                if v:IsA("BasePart") then	
+	                    spawn(function()	
+	                        SetLocked(v,false)	
+	                        SpawnDecal(v,Enum.NormalId.Front)	
+	                        AddDecal(v,id,Enum.NormalId.Front)	
+	                        	
+	                        SpawnDecal(v,Enum.NormalId.Back)	
+	                        AddDecal(v,id,Enum.NormalId.Back)	
+	                        	
+	                        SpawnDecal(v,Enum.NormalId.Right)	
+	                        AddDecal(v,id,Enum.NormalId.Right)	
+	                        	
+	                        SpawnDecal(v,Enum.NormalId.Left)	
+	                        AddDecal(v,id,Enum.NormalId.Left)	
+	                        	
+	                        SpawnDecal(v,Enum.NormalId.Bottom)	
+	                        AddDecal(v,id,Enum.NormalId.Bottom)	
+	                        	
+	                        SpawnDecal(v,Enum.NormalId.Top)	
+	                        AddDecal(v,id,Enum.NormalId.Top)	
+	                    end)	
+	                end	
+	            end 	
+	        end	
+	        spam("106975379090726")	
+	    end)	
+	
+end;
+task.spawn(C_a);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton8.LocalScript
+local function C_c()
+	local script = LMG2L["LocalScript_c"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";r6")	
+	    end)	
+end;
+task.spawn(C_c);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton6.LocalScript
+local function C_e()
+	local script = LMG2L["LocalScript_e"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local player = game.Players.LocalPlayer	
+	local char = player.Character	
+	local tool	
+	for i,v in player:GetDescendants() do	
+	    if v.Name == "SyncAPI" then	
+	        tool = v.Parent	
+	    end	
+	end	
+	for i,v in game.ReplicatedStorage:GetDescendants() do	
+	    if v.Name == "SyncAPI" then	
+	        tool = v.Parent	
+	    end	
+	end	
+	remote = tool.SyncAPI.ServerEndpoint	
+	function _(args)	
+	    remote:InvokeServer(unpack(args))	
+	end	
+	function SetCollision(part,boolean)	
+	    local args = {	
+	        [1] = "SyncCollision",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["CanCollide"] = boolean	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function SetAnchor(boolean,part)	
+	    local args = {	
+	        [1] = "SyncAnchor",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Anchored"] = boolean	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function CreatePart(cf,parent)	
+	    local args = {	
+	        [1] = "CreatePart",	
+	        [2] = "Normal",	
+	        [3] = cf,	
+	        [4] = parent	
+	    }	
+	    _(args)	
+	end	
+	function DestroyPart(part)	
+	    local args = {	
+	        [1] = "Remove",	
+	        [2] = {	
+	            [1] = part	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function MovePart(part,cf)	
+	    local args = {	
+	        [1] = "SyncMove",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["CFrame"] = cf	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function Resize(part,size,cf)	
+	    local args = {	
+	        [1] = "SyncResize",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["CFrame"] = cf,	
+	                ["Size"] = size	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function AddMesh(part)	
+	    local args = {	
+	        [1] = "CreateMeshes",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	
+	function SetMesh(part,meshid)	
+	    local args = {	
+	        [1] = "SyncMesh",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["MeshId"] = "rbxassetid://"..meshid	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function SetTexture(part, texid)	
+	    local args = {	
+	        [1] = "SyncMesh",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["TextureId"] = "rbxassetid://"..texid	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function SetName(part, stringg)	
+	    local args = {	
+	        [1] = "SetName",	
+	        [2] = {	
+	            [1] = part	
+	        },	
+	        [3] = stringg	
+	    }	
+	
+	    _(args)	
+	end	
+	function MeshResize(part,size)	
+	    local args = {	
+	        [1] = "SyncMesh",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Scale"] = size	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function VertexColormf(part)	
+	    local a1 = {	
+	        [1] = "SyncMesh",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["VertexColor"] = Vector3.new(3,3,3)	
+	            }	
+	        }	
+	    }	
+	    _(a1)	
+	end	
+	
+	function Weld(part1, part2,lead)	
+	    local args = {	
+	        [1] = "CreateWelds",	
+	        [2] = {	
+	            [1] = part1,	
+	            [2] = part2	
+	        },	
+	        [3] = lead	
+	    }	
+	    _(args)	
+	
+	end	
+	function SetLocked(part,boolean)	
+	    local args = {	
+	        [1] = "SetLocked",	
+	        [2] = {	
+	            [1] = part	
+	        },	
+	        [3] = boolean	
+	    }	
+	    _(args)	
+	end	
+	function SetTrans(part,int)	
+	    local args = {	
+	        [1] = "SyncMaterial",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Transparency"] = int	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function CreateSpotlight(part)	
+	    local args = {	
+	        [1] = "CreateLights",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["LightType"] = "SpotLight"	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function SyncLighting(part,brightness)	
+	    local args = {	
+	        [1] = "SyncLighting",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["LightType"] = "SpotLight",	
+	                ["Brightness"] = brightness	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function Color(part,color)	
+	    local args = {	
+	        [1] = "SyncColor",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Color"] = color --[[Color3]],	
+	                ["UnionColoring"] = false	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	function SpawnDecal(part,side)	
+	    local args = {	
+	        [1] = "CreateTextures",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Face"] = side,	
+	                ["TextureType"] = "Decal"	
+	            }	
+	        }	
+	    }	
+	
+	    _(args)	
+	end	
+	function AddDecal(part,asset,side)	
+	    local args = {	
+	        [1] = "SyncTexture",	
+	        [2] = {	
+	            [1] = {	
+	                ["Part"] = part,	
+	                ["Face"] = side,	
+	                ["TextureType"] = "Decal",	
+	                ["Texture"] = "rbxassetid://".. asset	
+	            }	
+	        }	
+	    }	
+	    _(args)	
+	end	
+	
+	function Sky(id)	
+	    e = char.HumanoidRootPart.CFrame.x	
+	    f = char.HumanoidRootPart.CFrame.y	
+	    g = char.HumanoidRootPart.CFrame.z	
+	    CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,-9,0),workspace.Terrain)	
+	    wait(0.5) -- Increased wait time for part creation	
+	    for i,v in game.Workspace:GetDescendants() do	
+	        if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then	
+	            SetName(v,"Sky")	
+	            AddMesh(v)	
+	            SetMesh(v,"111891702759441")	
+	            SetTexture(v,id)	
+	            MeshResize(v,Vector3.new(20000, 20000, 20000))	
+	            VertexColormf(v)	
+	            SetLocked(v,true)	
+	            	
+	            	
+	            local skyPart = v	
+	            local rotationSpeedX = 50	
+	            local rotationSpeedZ = 50	
+	            local rotationSpeedY = 50	
+	            local currentRotation = Vector3.new(0, 0, 0)	
+	            	
+	            game:GetService("RunService").Heartbeat:Connect(function(deltaTime)	
+	                currentRotation = Vector3.new(	
+	                    (currentRotation.X + rotationSpeedX * deltaTime) % 360,	
+	                    (currentRotation.Y + rotationSpeedY * deltaTime) % 360,	
+	                    (currentRotation.Z + rotationSpeedZ * deltaTime) % 360	
+	                )	
+	                	
+	                	
+	                local baseCFrame = CFrame.new(skyPart.Position)	
+	                local rotatedCFrame = baseCFrame * CFrame.Angles(	
+	                    math.rad(currentRotation.X),	
+	                    math.rad(currentRotation.Y),	
+	                    math.rad(currentRotation.Z)	
+	                )	
+	                	
+	                MovePart(skyPart, rotatedCFrame)	
+	            end)	
+	            	
+	            break	
+	        end	
+	    end	
+	end	
+	
+	Sky("106975379090726")	
+	    end)	
+end;
+task.spawn(C_e);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton5.LocalScript
+local function C_10()
+	local script = LMG2L["LocalScript_10"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";music 99907604701668")	
+	        RequestCommand:InvokeServer(";volume inf ;pitch 0.14")	
+	    end)	
+end;
+task.spawn(C_10);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton22.LocalScript
+local function C_14()
+	local script = LMG2L["LocalScript_14"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";sword")	
+	    end)	
+end;
+task.spawn(C_14);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton20.LocalScript
+local function C_16()
+	local script = LMG2L["LocalScript_16"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";ff")	
+	    end)	
+end;
+task.spawn(C_16);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton17.LocalScript
+local function C_18()
+	local script = LMG2L["LocalScript_18"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";speed me 99")	
+	    end)	
+end;
+task.spawn(C_18);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton3.LocalScript
+local function C_1a()
+	local script = LMG2L["LocalScript_1a"];
+	    script.Parent.MouseButton1Click:Connect(function() 	
+	        local player = game.Players.LocalPlayer	
+	        local char = player.Character	
+	        local tool	
+	        for i,v in player:GetDescendants() do	
+	            if v.Name == "SyncAPI" then	
+	                tool = v.Parent	
+	            end	
+	        end	
+	        for i,v in game.ReplicatedStorage:GetDescendants() do	
+	            if v.Name == "SyncAPI" then	
+	                tool = v.Parent	
+	            end	
+	        end	
+	        remote = tool.SyncAPI.ServerEndpoint	
+	        function _(args)	
+	            remote:InvokeServer(unpack(args))	
+	        end	
+	        function SetCollision(part,boolean)	
+	            local args = {	
+	            [1] = "SyncCollision",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CanCollide"] = boolean	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetAnchor(boolean,part)	
+	            local args = {	
+	            [1] = "SyncAnchor",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Anchored"] = boolean	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function CreatePart(cf,parent)	
+	            local args = {	
+	            [1] = "CreatePart",	
+	            [2] = "Normal",	
+	            [3] = cf,	
+	            [4] = parent	
+	            }	
+	            _(args)	
+	        end	
+	        function DestroyPart(part)	
+	            local args = {	
+	            [1] = "Remove",	
+	            [2] = {	
+	            [1] = part	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function MovePart(part,cf)	
+	            local args = {	
+	            [1] = "SyncMove",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CFrame"] = cf	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function Resize(part,size,cf)	
+	            local args = {	
+	            [1] = "SyncResize",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["CFrame"] = cf,	
+	            ["Size"] = size	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function AddMesh(part)	
+	            local args = {	
+	            [1] = "CreateMeshes",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        	
+	        function SetMesh(part,meshid)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["MeshId"] = "rbxassetid://"..meshid	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetTexture(part, texid)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["TextureId"] = "rbxassetid://"..texid	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SetName(part, stringg)	
+	            local args = {	
+	            [1] = "SetName",	
+	            [2] = {	
+	            [1] = workspace.Part	
+	            },	
+	            [3] = stringg	
+	            }	
+	            	
+	            _(args)	
+	        end	
+	        function MeshResize(part,size)	
+	            local args = {	
+	            [1] = "SyncMesh",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Scale"] = size	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function Weld(part1, part2,lead)	
+	            local args = {	
+	            [1] = "CreateWelds",	
+	            [2] = {	
+	            [1] = part1,	
+	            [2] = part2	
+	            },	
+	            [3] = lead	
+	            }	
+	            _(args)	
+	            	
+	        end	
+	        function SetLocked(part,boolean)	
+	            local args = {	
+	            [1] = "SetLocked",	
+	            [2] = {	
+	            [1] = part	
+	            },	
+	            [3] = boolean	
+	            }	
+	            _(args)	
+	        end	
+	        function SetTrans(part,int)	
+	            local args = {	
+	            [1] = "SyncMaterial",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["Transparency"] = int	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function CreateSpotlight(part)	
+	            local args = {	
+	            [1] = "CreateLights",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["LightType"] = "SpotLight"	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function SyncLighting(part,brightness)	
+	            local args = {	
+	            [1] = "SyncLighting",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["LightType"] = "SpotLight",	
+	            ["Brightness"] = brightness	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function AddFire(part)	
+	            local args = {	
+	            [1] = "CreateDecorations",	
+	            [2] = {	
+	            [1] = {	
+	            ["Part"] = part,	
+	            ["DecorationType"] = "Fire"	
+	            }	
+	            }	
+	            }	
+	            _(args)	
+	        end	
+	        function FireParts()	
+	            for i,v in game.Workspace:GetDescendants() do	
+	                spawn(function()	
+	                    SetLocked(v,false)	
+	                    AddFire(v)	
+	                end)	
+	            end	
+	        end	
+	        FireParts()	
+	        	
+	        local player = game.Players.LocalPlayer	
+	    end)	
+	
+end;
+task.spawn(C_1a);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton12.LocalScript
+local function C_1c()
+	local script = LMG2L["LocalScript_1c"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";m team soojkidd join today!!!")	
+	    end)	
+end;
+task.spawn(C_1c);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_1e()
+	local script = LMG2L["LocalScript_1e"];
+		script.Parent.MouseButton1Click:Connect(function() 	
+	  local player = game.Players.LocalPlayer	
+	  local char = player.Character	
+	  local tool	
+	  for i,v in player:GetDescendants() do	
+	   if v.Name == "SyncAPI" then	
+	    tool = v.Parent	
+	   end	
+	  end	
+	  for i,v in game.ReplicatedStorage:GetDescendants() do	
+	   if v.Name == "SyncAPI" then	
+	    tool = v.Parent	
+	   end	
+	  end	
+	  remote = tool.SyncAPI.ServerEndpoint	
+	  function _(args)	
+	   remote:InvokeServer(unpack(args))	
+	  end	
+	  function SetCollision(part,boolean)	
+	   local args = {	
+	    [1] = "SyncCollision",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["CanCollide"] = boolean	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function SetAnchor(boolean,part)	
+	   local args = {	
+	    [1] = "SyncAnchor",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Anchored"] = boolean	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function CreatePart(cf,parent)	
+	   local args = {	
+	    [1] = "CreatePart",	
+	    [2] = "Normal",	
+	    [3] = cf,	
+	    [4] = parent	
+	   }	
+	   _(args)	
+	  end	
+	  function DestroyPart(part)	
+	   local args = {	
+	    [1] = "Remove",	
+	    [2] = {	
+	     [1] = part	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function MovePart(part,cf)	
+	   local args = {	
+	    [1] = "SyncMove",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["CFrame"] = cf	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function Resize(part,size,cf)	
+	   local args = {	
+	    [1] = "SyncResize",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["CFrame"] = cf,	
+	      ["Size"] = size	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function AddMesh(part)	
+	   local args = {	
+	    [1] = "CreateMeshes",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	 	
+	  function SetMesh(part,meshid)	
+	   local args = {	
+	    [1] = "SyncMesh",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["MeshId"] = "rbxassetid://"..meshid	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function SetTexture(part, texid)	
+	   local args = {	
+	    [1] = "SyncMesh",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["TextureId"] = "rbxassetid://"..texid	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function SetName(part, stringg)	
+	   local args = {	
+	    [1] = "SetName",	
+	    [2] = {	
+	     [1] = part	
+	    },	
+	    [3] = stringg	
+	   }	
+	 	
+	   _(args)	
+	  end	
+	  function MeshResize(part,size)	
+	   local args = {	
+	    [1] = "SyncMesh",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Scale"] = size}	
+	    } 	
+	   }	
+	   _(args)	
+	  end	
+	  function Weld(part1, part2,lead)	
+	   local args = {	
+	    [1] = "CreateWelds",	
+	    [2] = {	
+	     [1] = part1,	
+	     [2] = part2	
+	    },	
+	    [3] = lead	
+	   }	
+	   _(args)	
+	 	
+	  end	
+	  function SetLocked(part,boolean)	
+	   local args = {	
+	    [1] = "SetLocked",	
+	    [2] = {	
+	     [1] = part	
+	    },	
+	    [3] = boolean	
+	   }	
+	   _(args)	
+	  end	
+	  function SetTrans(part,int)	
+	   local args = {	
+	    [1] = "SyncMaterial",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Transparency"] = int	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function CreateSpotlight(part)	
+	   local args = {	
+	    [1] = "CreateLights",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["LightType"] = "SpotLight"	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function SyncLighting(part,brightness)	
+	   local args = {	
+	    [1] = "SyncLighting",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["LightType"] = "SpotLight",	
+	      ["Brightness"] = brightness	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function Color(part,color)	
+	   local args = {	
+	    [1] = "SyncColor",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Color"] = color --[[Color3]],	
+	      ["UnionColoring"] = false	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	  function SpawnDecal(part,side)	
+	   local args = {	
+	    [1] = "CreateTextures",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Face"] = side,	
+	      ["TextureType"] = "Decal"	
+	     }	
+	    }	
+	   }	
+	 	
+	   _(args)	
+	  end	
+	  function AddDecal(part,asset,side)	
+	   local args = {	
+	    [1] = "SyncTexture",	
+	    [2] = {	
+	     [1] = {	
+	      ["Part"] = part,	
+	      ["Face"] = side,	
+	      ["TextureType"] = "Decal",	
+	      ["Texture"] = "rbxassetid://".. asset	
+	     }	
+	    }	
+	   }	
+	   _(args)	
+	  end	
+	 	
+	  function Sky(id)	
+	   e = char.HumanoidRootPart.CFrame.x	
+	   f = char.HumanoidRootPart.CFrame.y	
+	   g = char.HumanoidRootPart.CFrame.z	
+	   CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)	
+	   for i,v in game.Workspace:GetDescendants() do	
+	    if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then	
+	     --spawn(function()	
+	     SetName(v,"Skybox")	
+	     AddMesh(v)	
+	     --end)	
+	     --spawn(function()	
+	     SetMesh(v,"111891702759441") -- Dont change it	
+	     SetTexture(v,id)	
+	     --end)	
+	     MeshResize(v,Vector3.new(7200, 7200, 7200)) -- The rest must be equal to the first scale number	
+	     SetLocked(v,true)	
+	    end	
+	   end	
+	  end	
+	  Sky("106975379090726")	
+	  Game.Lighting.Sky:Destroy()	
+	 end)	
+	
+end;
+task.spawn(C_1e);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton4.LocalScript
+local function C_20()
+	local script = LMG2L["LocalScript_20"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";disco")	
+	    end)	
+end;
+task.spawn(C_20);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton11.LocalScript
+local function C_22()
+	local script = LMG2L["LocalScript_22"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";h team soojkidd join today!!!")	
+	    end)	
+end;
+task.spawn(C_22);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton18.LocalScript
+local function C_24()
+	local script = LMG2L["LocalScript_24"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";kill all")	
+	    end)	
+end;
+task.spawn(C_24);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton24.LocalScript
+local function C_26()
+	local script = LMG2L["LocalScript_26"];
+	print('Hello World')  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";sit all")	
+	    end)	
+end;
+task.spawn(C_26);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton21.LocalScript
+local function C_28()
+	local script = LMG2L["LocalScript_28"];
+	print('Hello World')  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";fling all")	
+	    end)	
+end;
+task.spawn(C_28);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton9.LocalScript
+local function C_2a()
+	local script = LMG2L["LocalScript_2a"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";re")	
+	    end)	
+end;
+task.spawn(C_2a);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton19.LocalScript
+local function C_2c()
+	local script = LMG2L["LocalScript_2c"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";titledb all s00jkidd_meen")	
+	    end)	
+end;
+task.spawn(C_2c);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton23.LocalScript
+local function C_2e()
+	local script = LMG2L["LocalScript_2e"];
+	print('Hello World')  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";btools")	
+	    end)	
+end;
+task.spawn(C_2e);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton14.LocalScript
+local function C_30()
+	local script = LMG2L["LocalScript_30"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";h team hacker Roblox haaaaa!!")	
+	    end)	
+end;
+task.spawn(C_30);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton10.LocalScript
+local function C_32()
+	local script = LMG2L["LocalScript_32"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";char all soojkidd")	
+	    end)	
+end;
+task.spawn(C_32);
+-- Players.datvilaphop0965.PlayerGui.ScreenGui.Frame.TextButton16.LocalScript
+local function C_34()
+	local script = LMG2L["LocalScript_34"];
+	  script.Parent.MouseButton1Click:Connect(function() 	
+	        local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	        local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	        RequestCommand:InvokeServer(";spin all 999")	
+	    end)	
+end;
+task.spawn(C_34);
+
+return LMG2L["ScreenGui_1"], require;

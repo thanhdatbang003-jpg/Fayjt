@@ -1,0 +1,240 @@
+game:GetService("StarterGui"):SetCore("DevConsoleVisible", true)
+print("Installing RC2 FE...")
+wait(2)
+print("Rc2 FE installed..")
+wait(2)
+warn("Enjoy Fe Bypass!1")
+wait(2)
+
+local sound = Instance.new("Sound", game.Workspace)
+sound.SoundId = "rbxassetid://8623387557"
+sound.Volume = 39
+sound:Play()
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["buka_2"] = Instance.new("ImageButton", LMG2L["ScreenGui_1"]);
+LMG2L["buka_2"]["BorderSizePixel"] = 0;
+-- LMG2L["buka_2"]["ImageContent"] = ;
+LMG2L["buka_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["buka_2"]["Image"] = [[rbxassetid://106047991638823]];
+LMG2L["buka_2"]["Size"] = UDim2.new(0, 96, 0, 96);
+LMG2L["buka_2"]["Name"] = [[buka]];
+LMG2L["buka_2"]["Position"] = UDim2.new(0, 12, 0, 230);
+
+
+LMG2L["LocalScript_3"] = Instance.new("LocalScript", LMG2L["buka_2"]);
+
+
+
+LMG2L["LocalScript_4"] = Instance.new("LocalScript", LMG2L["ScreenGui_1"]);
+
+
+
+LMG2L["Frame2_5"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame2_5"]["ZIndex"] = 9;
+LMG2L["Frame2_5"]["BorderSizePixel"] = 0;
+LMG2L["Frame2_5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Frame2_5"]["Size"] = UDim2.new(0, 406, 0, 40);
+LMG2L["Frame2_5"]["Position"] = UDim2.new(0, 270, 0, -38);
+LMG2L["Frame2_5"]["Name"] = [[Frame2]];
+
+
+LMG2L["buka_6"] = Instance.new("TextButton", LMG2L["Frame2_5"]);
+LMG2L["buka_6"]["TextWrapped"] = true;
+LMG2L["buka_6"]["BorderSizePixel"] = 0;
+LMG2L["buka_6"]["TextScaled"] = true;
+LMG2L["buka_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["buka_6"]["Size"] = UDim2.new(0, 48, 0, 34);
+LMG2L["buka_6"]["Text"] = [[-]];
+LMG2L["buka_6"]["Name"] = [[buka]];
+LMG2L["buka_6"]["Position"] = UDim2.new(0, 352, 0, 2);
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["Frame2_5"]);
+
+
+
+LMG2L["UIDragDetector_8"] = Instance.new("UIDragDetector", LMG2L["Frame2_5"]);
+
+
+
+LMG2L["ImageLabel_9"] = Instance.new("ImageLabel", LMG2L["Frame2_5"]);
+LMG2L["ImageLabel_9"]["ZIndex"] = 9;
+LMG2L["ImageLabel_9"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_9"]["ImageContent"] = ;
+LMG2L["ImageLabel_9"]["Image"] = [[rbxassetid://106047991638823]];
+LMG2L["ImageLabel_9"]["Size"] = UDim2.new(0, 52, 0, 34);
+LMG2L["ImageLabel_9"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+LMG2L["Frame_a"] = Instance.new("Frame", LMG2L["Frame2_5"]);
+LMG2L["Frame_a"]["BorderSizePixel"] = 0;
+LMG2L["Frame_a"]["BackgroundColor3"] = Color3.fromRGB(204, 0, 0);
+LMG2L["Frame_a"]["Size"] = UDim2.new(0, 394, 0, 398);
+LMG2L["Frame_a"]["Position"] = UDim2.new(0, 6, 0, 38);
+LMG2L["Frame_a"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["TextButton2_b"] = Instance.new("TextButton", LMG2L["Frame_a"]);
+LMG2L["TextButton2_b"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_b"]["Size"] = UDim2.new(0, 98, 0, 40);
+LMG2L["TextButton2_b"]["Text"] = [[clean]];
+LMG2L["TextButton2_b"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_b"]["Position"] = UDim2.new(0, 110, 0, 342);
+
+
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextButton2_b"]);
+
+
+
+LMG2L["Frame6_d"] = Instance.new("Frame", LMG2L["Frame_a"]);
+LMG2L["Frame6_d"]["BorderSizePixel"] = 0;
+LMG2L["Frame6_d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame6_d"]["Size"] = UDim2.new(0, 58, 0, 386);
+LMG2L["Frame6_d"]["Position"] = UDim2.new(0, 334, 0, 2);
+LMG2L["Frame6_d"]["Name"] = [[Frame6]];
+LMG2L["Frame6_d"]["BackgroundTransparency"] = 0.6;
+
+
+LMG2L["ImageLabel_e"] = Instance.new("ImageLabel", LMG2L["Frame6_d"]);
+LMG2L["ImageLabel_e"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_e"]["ImageContent"] = ;
+LMG2L["ImageLabel_e"]["Image"] = [[rbxassetid://108024391301459]];
+LMG2L["ImageLabel_e"]["Size"] = UDim2.new(0, 56, 0, 136);
+LMG2L["ImageLabel_e"]["BackgroundTransparency"] = 1;
+
+
+LMG2L["UIStroke_f"] = Instance.new("UIStroke", LMG2L["Frame_a"]);
+LMG2L["UIStroke_f"]["Thickness"] = 6;
+LMG2L["UIStroke_f"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["TextButton3_10"] = Instance.new("TextButton", LMG2L["Frame_a"]);
+LMG2L["TextButton3_10"]["BorderSizePixel"] = 0;
+LMG2L["TextButton3_10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_10"]["Size"] = UDim2.new(0, 98, 0, 40);
+LMG2L["TextButton3_10"]["Text"] = [[r6]];
+LMG2L["TextButton3_10"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_10"]["Position"] = UDim2.new(0, 222, 0, 342);
+
+
+LMG2L["LocalScript_11"] = Instance.new("LocalScript", LMG2L["TextButton3_10"]);
+
+
+
+LMG2L["TextButton_12"] = Instance.new("TextButton", LMG2L["Frame_a"]);
+LMG2L["TextButton_12"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_12"]["Size"] = UDim2.new(0, 92, 0, 40);
+LMG2L["TextButton_12"]["Text"] = [[exe]];
+LMG2L["TextButton_12"]["Position"] = UDim2.new(0, 2, 0, 342);
+
+
+LMG2L["LocalScript_13"] = Instance.new("LocalScript", LMG2L["TextButton_12"]);
+
+
+
+LMG2L["TextBox_14"] = Instance.new("TextBox", LMG2L["Frame_a"]);
+LMG2L["TextBox_14"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_14"]["ZIndex"] = 99;
+LMG2L["TextBox_14"]["TextWrapped"] = true;
+LMG2L["TextBox_14"]["TextSize"] = 10;
+LMG2L["TextBox_14"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_14"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_14"]["MultiLine"] = true;
+LMG2L["TextBox_14"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox_14"]["ClipsDescendants"] = true;
+LMG2L["TextBox_14"]["Size"] = UDim2.new(0, 316, 0, 326);
+LMG2L["TextBox_14"]["Position"] = UDim2.new(0, 2, 0, 6);
+LMG2L["TextBox_14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_14"]["Text"] = [[print('Hello World')]];
+LMG2L["TextBox_14"]["SelectionGroup"] = true;
+
+
+LMG2L["Frame_15"] = Instance.new("Frame", LMG2L["Frame_a"]);
+LMG2L["Frame_15"]["BorderSizePixel"] = 0;
+LMG2L["Frame_15"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame_15"]["Size"] = UDim2.new(0, 328, 0, 336);
+LMG2L["Frame_15"]["Position"] = UDim2.new(0, 0, 0, 2);
+LMG2L["Frame_15"]["BackgroundTransparency"] = 0.6;
+
+
+local function C_3()
+	local script = LMG2L["LocalScript_3"];
+	  while wait(.01) do	
+	        script.Parent.Rotation = script.Parent.Rotation + 1	
+	    end	
+	
+end;
+task.spawn(C_3);
+local function C_4()
+	local script = LMG2L["LocalScript_4"];
+	local screengui = script.Parent	
+	local isi = screengui:WaitForChild("Frame") 	
+	local buka = screengui:WaitForChild("buka") 	
+	buka.MouseButton1Click:Connect(function()	
+	if isi.Visible == false then	
+	isi.Visible = true	
+	else	
+	isi.Visible = false	
+	end	
+	end)	
+end;
+task.spawn(C_4);
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local screengui = script.Parent	
+	local isi = screengui:WaitForChild("Frame") 	
+	local buka = screengui:WaitForChild("buka") 	
+	buka.MouseButton1Click:Connect(function()	
+	if isi.Visible == false then	
+	isi.Visible = true	
+	else	
+	isi.Visible = false	
+	end	
+	end)	
+end;
+task.spawn(C_7);
+local function C_c()
+	local script = LMG2L["LocalScript_c"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	textBox.Text = ""	
+	end)	
+end;
+task.spawn(C_c);
+local function C_11()
+	local script = LMG2L["LocalScript_11"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sunday102711-bit/E00KIDD-r6-by-me/refs/heads/main/R6%20Real"))()		
+	end)	
+end;
+task.spawn(C_11);
+local function C_13()
+	local script = LMG2L["LocalScript_13"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	local code = textBox.Text	
+	if code ~= "" then	
+	pcall(function()	
+	loadstring(code)()	
+	end)	
+	end	
+	end)	
+end;
+task.spawn(C_13);
+
+return LMG2L["ScreenGui_1"], require; 

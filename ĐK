@@ -1,0 +1,52 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["TextLabel_2"] = Instance.new("TextLabel", LMG2L["ScreenGui_1"]);
+LMG2L["TextLabel_2"]["TextWrapped"] = true;
+LMG2L["TextLabel_2"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_2"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextLabel_2"]["TextScaled"] = true;
+LMG2L["TextLabel_2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+LMG2L["TextLabel_2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_2"]["Size"] = UDim2.new(0, 168, 0, 68);
+LMG2L["TextLabel_2"]["Text"] = [[You have been hacked by datvilaphop HTTPS/tiktok.com/DVLP9[exe][VN]]];
+LMG2L["TextLabel_2"]["Position"] = UDim2.new(0, 100, 0, 282);
+
+
+LMG2L["TextLabel_3"] = Instance.new("TextLabel", LMG2L["TextLabel_2"]);
+LMG2L["TextLabel_3"]["TextWrapped"] = true;
+LMG2L["TextLabel_3"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_3"]["TextScaled"] = true;
+LMG2L["TextLabel_3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_3"]["Size"] = UDim2.new(0, 168, 0, 36);
+LMG2L["TextLabel_3"]["Text"] = [[script in roblox [fuck you roblox sonn😂✌️]]];
+LMG2L["TextLabel_3"]["Position"] = UDim2.new(0, 0, 0, -36);
+
+
+LMG2L["ImageLabel_4"] = Instance.new("ImageLabel", LMG2L["TextLabel_2"]);
+LMG2L["ImageLabel_4"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_4"]["ImageContent"] = ;
+LMG2L["ImageLabel_4"]["Image"] = [[rbxassetid://114487017021161]];
+LMG2L["ImageLabel_4"]["Size"] = UDim2.new(0, 92, 0, 106);
+LMG2L["ImageLabel_4"]["Position"] = UDim2.new(0, -94, 0, -36);
+
+
+
+return LMG2L["ScreenGui_1"], require;

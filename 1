@@ -1,0 +1,688 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 454, 0, 474);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 182, 0, -62);
+LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["TextButton15_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton15_3"]["TextWrapped"] = true;
+LMG2L["TextButton15_3"]["BorderSizePixel"] = 3;
+LMG2L["TextButton15_3"]["TextScaled"] = true;
+LMG2L["TextButton15_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton15_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton15_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton15_3"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton15_3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton15_3"]["Text"] = [[speed me]];
+LMG2L["TextButton15_3"]["Name"] = [[TextButton15]];
+LMG2L["TextButton15_3"]["Position"] = UDim2.new(0, 230, 0, 150);
+
+
+LMG2L["UIGradient_4"] = Instance.new("UIGradient", LMG2L["TextButton15_3"]);
+LMG2L["UIGradient_4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_5"] = Instance.new("UIStroke", LMG2L["TextButton15_3"]);
+
+
+
+LMG2L["LocalScript_6"] = Instance.new("LocalScript", LMG2L["TextButton15_3"]);
+
+
+
+LMG2L["TextButton13_7"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton13_7"]["TextWrapped"] = true;
+LMG2L["TextButton13_7"]["BorderSizePixel"] = 3;
+LMG2L["TextButton13_7"]["TextScaled"] = true;
+LMG2L["TextButton13_7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton13_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton13_7"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton13_7"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton13_7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton13_7"]["Text"] = [[disco]];
+LMG2L["TextButton13_7"]["Name"] = [[TextButton13]];
+LMG2L["TextButton13_7"]["Position"] = UDim2.new(0, 6, 0, 150);
+
+
+LMG2L["UIGradient_8"] = Instance.new("UIGradient", LMG2L["TextButton13_7"]);
+LMG2L["UIGradient_8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_9"] = Instance.new("UIStroke", LMG2L["TextButton13_7"]);
+
+
+
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["TextButton13_7"]);
+
+
+
+LMG2L["TextButton7_b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton7_b"]["TextWrapped"] = true;
+LMG2L["TextButton7_b"]["BorderSizePixel"] = 3;
+LMG2L["TextButton7_b"]["TextScaled"] = true;
+LMG2L["TextButton7_b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton7_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton7_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton7_b"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton7_b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton7_b"]["Text"] = [[unblur]];
+LMG2L["TextButton7_b"]["Name"] = [[TextButton7]];
+LMG2L["TextButton7_b"]["Position"] = UDim2.new(0, 230, 0, 82);
+
+
+LMG2L["UIGradient_c"] = Instance.new("UIGradient", LMG2L["TextButton7_b"]);
+LMG2L["UIGradient_c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_d"] = Instance.new("UIStroke", LMG2L["TextButton7_b"]);
+
+
+
+LMG2L["LocalScript_e"] = Instance.new("LocalScript", LMG2L["TextButton7_b"]);
+
+
+
+LMG2L["TextButton2_f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton2_f"]["TextWrapped"] = true;
+LMG2L["TextButton2_f"]["BorderSizePixel"] = 3;
+LMG2L["TextButton2_f"]["TextScaled"] = true;
+LMG2L["TextButton2_f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_f"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton2_f"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton2_f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_f"]["Text"] = [[skybox]];
+LMG2L["TextButton2_f"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_f"]["Position"] = UDim2.new(0, 118, 0, 50);
+
+
+LMG2L["UIGradient_10"] = Instance.new("UIGradient", LMG2L["TextButton2_f"]);
+LMG2L["UIGradient_10"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_11"] = Instance.new("UIStroke", LMG2L["TextButton2_f"]);
+
+
+
+LMG2L["LocalScript_12"] = Instance.new("LocalScript", LMG2L["TextButton2_f"]);
+
+
+
+LMG2L["TextButton8_13"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton8_13"]["TextWrapped"] = true;
+LMG2L["TextButton8_13"]["BorderSizePixel"] = 3;
+LMG2L["TextButton8_13"]["TextScaled"] = true;
+LMG2L["TextButton8_13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton8_13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton8_13"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton8_13"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton8_13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton8_13"]["Text"] = [[title]];
+LMG2L["TextButton8_13"]["Name"] = [[TextButton8]];
+LMG2L["TextButton8_13"]["Position"] = UDim2.new(0, 342, 0, 82);
+
+
+LMG2L["UIGradient_14"] = Instance.new("UIGradient", LMG2L["TextButton8_13"]);
+LMG2L["UIGradient_14"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_15"] = Instance.new("UIStroke", LMG2L["TextButton8_13"]);
+
+
+
+LMG2L["LocalScript_16"] = Instance.new("LocalScript", LMG2L["TextButton8_13"]);
+
+
+
+LMG2L["TextButton6_17"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton6_17"]["TextWrapped"] = true;
+LMG2L["TextButton6_17"]["BorderSizePixel"] = 3;
+LMG2L["TextButton6_17"]["TextScaled"] = true;
+LMG2L["TextButton6_17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton6_17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton6_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton6_17"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton6_17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton6_17"]["Text"] = [[blur all]];
+LMG2L["TextButton6_17"]["Name"] = [[TextButton6]];
+LMG2L["TextButton6_17"]["Position"] = UDim2.new(0, 118, 0, 82);
+
+
+LMG2L["UIGradient_18"] = Instance.new("UIGradient", LMG2L["TextButton6_17"]);
+LMG2L["UIGradient_18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_19"] = Instance.new("UIStroke", LMG2L["TextButton6_17"]);
+
+
+
+LMG2L["LocalScript_1a"] = Instance.new("LocalScript", LMG2L["TextButton6_17"]);
+
+
+
+LMG2L["TextButton5_1b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton5_1b"]["TextWrapped"] = true;
+LMG2L["TextButton5_1b"]["BorderSizePixel"] = 3;
+LMG2L["TextButton5_1b"]["TextScaled"] = true;
+LMG2L["TextButton5_1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton5_1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton5_1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton5_1b"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton5_1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton5_1b"]["Text"] = [[re]];
+LMG2L["TextButton5_1b"]["Name"] = [[TextButton5]];
+LMG2L["TextButton5_1b"]["Position"] = UDim2.new(0, 6, 0, 82);
+
+
+LMG2L["UIGradient_1c"] = Instance.new("UIGradient", LMG2L["TextButton5_1b"]);
+LMG2L["UIGradient_1c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_1d"] = Instance.new("UIStroke", LMG2L["TextButton5_1b"]);
+
+
+
+LMG2L["LocalScript_1e"] = Instance.new("LocalScript", LMG2L["TextButton5_1b"]);
+
+
+
+LMG2L["TextButton25_1f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton25_1f"]["TextWrapped"] = true;
+LMG2L["TextButton25_1f"]["BorderSizePixel"] = 3;
+LMG2L["TextButton25_1f"]["TextScaled"] = true;
+LMG2L["TextButton25_1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton25_1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton25_1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton25_1f"]["Size"] = UDim2.new(0, 438, 0, 18);
+LMG2L["TextButton25_1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton25_1f"]["Text"] = [[char]];
+LMG2L["TextButton25_1f"]["Name"] = [[TextButton25]];
+LMG2L["TextButton25_1f"]["Position"] = UDim2.new(0, 6, 0, 354);
+
+
+LMG2L["UIGradient_20"] = Instance.new("UIGradient", LMG2L["TextButton25_1f"]);
+LMG2L["UIGradient_20"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_21"] = Instance.new("UIStroke", LMG2L["TextButton25_1f"]);
+
+
+
+LMG2L["LocalScript_22"] = Instance.new("LocalScript", LMG2L["TextButton25_1f"]);
+
+
+
+LMG2L["TextLabel_23"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["TextLabel_23"]["TextWrapped"] = true;
+LMG2L["TextLabel_23"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_23"]["TextScaled"] = true;
+LMG2L["TextLabel_23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_23"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_23"]["BackgroundTransparency"] = 2;
+LMG2L["TextLabel_23"]["Size"] = UDim2.new(0, 342, 0, 26);
+LMG2L["TextLabel_23"]["Text"] = [[GUI datvilaphop0969 f3x v11]];
+LMG2L["TextLabel_23"]["Position"] = UDim2.new(0, 52, 0, 4);
+
+
+LMG2L["UIGradient_24"] = Instance.new("UIGradient", LMG2L["TextLabel_23"]);
+LMG2L["UIGradient_24"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["TextLabel3_25"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["TextLabel3_25"]["TextWrapped"] = true;
+LMG2L["TextLabel3_25"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel3_25"]["TextScaled"] = true;
+LMG2L["TextLabel3_25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel3_25"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel3_25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel3_25"]["BackgroundTransparency"] = 2;
+LMG2L["TextLabel3_25"]["Size"] = UDim2.new(0, 438, 0, 26);
+LMG2L["TextLabel3_25"]["Text"] = [[🤑 Genre script in HD admin!!!🤑]];
+LMG2L["TextLabel3_25"]["Name"] = [[TextLabel3]];
+LMG2L["TextLabel3_25"]["Position"] = UDim2.new(0, 6, 0, 260);
+
+
+LMG2L["UIGradient_26"] = Instance.new("UIGradient", LMG2L["TextLabel3_25"]);
+LMG2L["UIGradient_26"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIDragDetector_27"] = Instance.new("UIDragDetector", LMG2L["Frame_2"]);
+
+
+
+LMG2L["TextButton22_28"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton22_28"]["TextWrapped"] = true;
+LMG2L["TextButton22_28"]["BorderSizePixel"] = 3;
+LMG2L["TextButton22_28"]["TextScaled"] = true;
+LMG2L["TextButton22_28"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton22_28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton22_28"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton22_28"]["Size"] = UDim2.new(0, 140, 0, 28);
+LMG2L["TextButton22_28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton22_28"]["Text"] = [[Egghaha26K8]];
+LMG2L["TextButton22_28"]["Name"] = [[TextButton22]];
+LMG2L["TextButton22_28"]["Position"] = UDim2.new(0, 6, 0, 290);
+
+
+LMG2L["UIGradient_29"] = Instance.new("UIGradient", LMG2L["TextButton22_28"]);
+LMG2L["UIGradient_29"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_2a"] = Instance.new("UIStroke", LMG2L["TextButton22_28"]);
+
+
+
+LMG2L["TextButton9_2b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton9_2b"]["TextWrapped"] = true;
+LMG2L["TextButton9_2b"]["BorderSizePixel"] = 3;
+LMG2L["TextButton9_2b"]["TextScaled"] = true;
+LMG2L["TextButton9_2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton9_2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton9_2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton9_2b"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton9_2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton9_2b"]["Text"] = [[hint]];
+LMG2L["TextButton9_2b"]["Name"] = [[TextButton9]];
+LMG2L["TextButton9_2b"]["Position"] = UDim2.new(0, 6, 0, 116);
+
+
+LMG2L["UIGradient_2c"] = Instance.new("UIGradient", LMG2L["TextButton9_2b"]);
+LMG2L["UIGradient_2c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_2d"] = Instance.new("UIStroke", LMG2L["TextButton9_2b"]);
+
+
+
+LMG2L["LocalScript_2e"] = Instance.new("LocalScript", LMG2L["TextButton9_2b"]);
+
+
+
+LMG2L["TextButton17_2f"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton17_2f"]["TextWrapped"] = true;
+LMG2L["TextButton17_2f"]["BorderSizePixel"] = 3;
+LMG2L["TextButton17_2f"]["TextScaled"] = true;
+LMG2L["TextButton17_2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton17_2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton17_2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton17_2f"]["Size"] = UDim2.new(0, 140, 0, 24);
+LMG2L["TextButton17_2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton17_2f"]["Text"] = [[theme]];
+LMG2L["TextButton17_2f"]["Name"] = [[TextButton17]];
+LMG2L["TextButton17_2f"]["Position"] = UDim2.new(0, 6, 0, 184);
+
+
+LMG2L["UIGradient_30"] = Instance.new("UIGradient", LMG2L["TextButton17_2f"]);
+LMG2L["UIGradient_30"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_31"] = Instance.new("UIStroke", LMG2L["TextButton17_2f"]);
+
+
+
+LMG2L["LocalScript_32"] = Instance.new("LocalScript", LMG2L["TextButton17_2f"]);
+
+
+
+LMG2L["TextButton3_33"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton3_33"]["TextWrapped"] = true;
+LMG2L["TextButton3_33"]["BorderSizePixel"] = 3;
+LMG2L["TextButton3_33"]["TextScaled"] = true;
+LMG2L["TextButton3_33"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_33"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton3_33"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton3_33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_33"]["Text"] = [[decal]];
+LMG2L["TextButton3_33"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_33"]["Position"] = UDim2.new(0, 230, 0, 50);
+
+
+LMG2L["UIGradient_34"] = Instance.new("UIGradient", LMG2L["TextButton3_33"]);
+LMG2L["UIGradient_34"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_35"] = Instance.new("UIStroke", LMG2L["TextButton3_33"]);
+
+
+
+LMG2L["LocalScript_36"] = Instance.new("LocalScript", LMG2L["TextButton3_33"]);
+
+
+
+LMG2L["TextButton12_37"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton12_37"]["TextWrapped"] = true;
+LMG2L["TextButton12_37"]["BorderSizePixel"] = 3;
+LMG2L["TextButton12_37"]["TextScaled"] = true;
+LMG2L["TextButton12_37"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton12_37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton12_37"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton12_37"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton12_37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton12_37"]["Text"] = [[unjali]];
+LMG2L["TextButton12_37"]["Name"] = [[TextButton12]];
+LMG2L["TextButton12_37"]["Position"] = UDim2.new(0, 342, 0, 116);
+
+
+LMG2L["UIGradient_38"] = Instance.new("UIGradient", LMG2L["TextButton12_37"]);
+LMG2L["UIGradient_38"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_39"] = Instance.new("UIStroke", LMG2L["TextButton12_37"]);
+
+
+
+LMG2L["LocalScript_3a"] = Instance.new("LocalScript", LMG2L["TextButton12_37"]);
+
+
+
+LMG2L["TextButton23_3b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton23_3b"]["TextWrapped"] = true;
+LMG2L["TextButton23_3b"]["BorderSizePixel"] = 3;
+LMG2L["TextButton23_3b"]["TextScaled"] = true;
+LMG2L["TextButton23_3b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton23_3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton23_3b"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton23_3b"]["Size"] = UDim2.new(0, 140, 0, 28);
+LMG2L["TextButton23_3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton23_3b"]["Text"] = [[hoangtt03]];
+LMG2L["TextButton23_3b"]["Name"] = [[TextButton23]];
+LMG2L["TextButton23_3b"]["Position"] = UDim2.new(0, 154, 0, 290);
+
+
+LMG2L["UIGradient_3c"] = Instance.new("UIGradient", LMG2L["TextButton23_3b"]);
+LMG2L["UIGradient_3c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_3d"] = Instance.new("UIStroke", LMG2L["TextButton23_3b"]);
+
+
+
+LMG2L["UIStroke_3e"] = Instance.new("UIStroke", LMG2L["Frame_2"]);
+LMG2L["UIStroke_3e"]["Thickness"] = 4;
+LMG2L["UIStroke_3e"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["UIGradient_3f"] = Instance.new("UIGradient", LMG2L["UIStroke_3e"]);
+LMG2L["UIGradient_3f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["TextButton18_40"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton18_40"]["TextWrapped"] = true;
+LMG2L["TextButton18_40"]["BorderSizePixel"] = 3;
+LMG2L["TextButton18_40"]["TextScaled"] = true;
+LMG2L["TextButton18_40"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton18_40"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton18_40"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton18_40"]["Size"] = UDim2.new(0, 146, 0, 24);
+LMG2L["TextButton18_40"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton18_40"]["Text"] = [[music]];
+LMG2L["TextButton18_40"]["Name"] = [[TextButton18]];
+LMG2L["TextButton18_40"]["Position"] = UDim2.new(0, 152, 0, 184);
+
+
+LMG2L["UIGradient_41"] = Instance.new("UIGradient", LMG2L["TextButton18_40"]);
+LMG2L["UIGradient_41"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_42"] = Instance.new("UIStroke", LMG2L["TextButton18_40"]);
+
+
+
+LMG2L["LocalScript_43"] = Instance.new("LocalScript", LMG2L["TextButton18_40"]);
+
+
+
+LMG2L["TextButton4_44"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton4_44"]["TextWrapped"] = true;
+LMG2L["TextButton4_44"]["BorderSizePixel"] = 3;
+LMG2L["TextButton4_44"]["TextScaled"] = true;
+LMG2L["TextButton4_44"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_44"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton4_44"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton4_44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton4_44"]["Text"] = [[r6]];
+LMG2L["TextButton4_44"]["Name"] = [[TextButton4]];
+LMG2L["TextButton4_44"]["Position"] = UDim2.new(0, 342, 0, 50);
+
+
+LMG2L["UIGradient_45"] = Instance.new("UIGradient", LMG2L["TextButton4_44"]);
+LMG2L["UIGradient_45"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_46"] = Instance.new("UIStroke", LMG2L["TextButton4_44"]);
+
+
+
+LMG2L["LocalScript_47"] = Instance.new("LocalScript", LMG2L["TextButton4_44"]);
+
+
+
+LMG2L["TextButton_48"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_48"]["TextWrapped"] = true;
+LMG2L["TextButton_48"]["BorderSizePixel"] = 3;
+LMG2L["TextButton_48"]["TextScaled"] = true;
+LMG2L["TextButton_48"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_48"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_48"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_48"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton_48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton_48"]["Text"] = [[f3x]];
+LMG2L["TextButton_48"]["Position"] = UDim2.new(0, 6, 0, 50);
+
+
+LMG2L["UIGradient_49"] = Instance.new("UIGradient", LMG2L["TextButton_48"]);
+LMG2L["UIGradient_49"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_4a"] = Instance.new("UIStroke", LMG2L["TextButton_48"]);
+
+
+
+LMG2L["LocalScript_4b"] = Instance.new("LocalScript", LMG2L["TextButton_48"]);
+
+
+
+LMG2L["TextButton20_4c"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton20_4c"]["TextWrapped"] = true;
+LMG2L["TextButton20_4c"]["BorderSizePixel"] = 3;
+LMG2L["TextButton20_4c"]["TextScaled"] = true;
+LMG2L["TextButton20_4c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton20_4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton20_4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton20_4c"]["Size"] = UDim2.new(0, 438, 0, 38);
+LMG2L["TextButton20_4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton20_4c"]["Text"] = [[fire]];
+LMG2L["TextButton20_4c"]["Name"] = [[TextButton20]];
+LMG2L["TextButton20_4c"]["Position"] = UDim2.new(0, 6, 0, 216);
+
+
+LMG2L["UIGradient_4d"] = Instance.new("UIGradient", LMG2L["TextButton20_4c"]);
+LMG2L["UIGradient_4d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_4e"] = Instance.new("UIStroke", LMG2L["TextButton20_4c"]);
+
+
+
+LMG2L["LocalScript_4f"] = Instance.new("LocalScript", LMG2L["TextButton20_4c"]);
+
+
+
+LMG2L["TextButton11_50"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton11_50"]["TextWrapped"] = true;
+LMG2L["TextButton11_50"]["BorderSizePixel"] = 3;
+LMG2L["TextButton11_50"]["TextScaled"] = true;
+LMG2L["TextButton11_50"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton11_50"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton11_50"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton11_50"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton11_50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton11_50"]["Text"] = [[jali]];
+LMG2L["TextButton11_50"]["Name"] = [[TextButton11]];
+LMG2L["TextButton11_50"]["Position"] = UDim2.new(0, 230, 0, 116);
+
+
+LMG2L["UIGradient_51"] = Instance.new("UIGradient", LMG2L["TextButton11_50"]);
+LMG2L["UIGradient_51"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_52"] = Instance.new("UIStroke", LMG2L["TextButton11_50"]);
+
+
+
+LMG2L["LocalScript_53"] = Instance.new("LocalScript", LMG2L["TextButton11_50"]);
+
+
+
+LMG2L["TextLabel2_54"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["TextLabel2_54"]["TextWrapped"] = true;
+LMG2L["TextLabel2_54"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel2_54"]["TextScaled"] = true;
+LMG2L["TextLabel2_54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel2_54"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel2_54"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel2_54"]["BackgroundTransparency"] = 2;
+LMG2L["TextLabel2_54"]["Size"] = UDim2.new(0, 258, 0, 14);
+LMG2L["TextLabel2_54"]["Text"] = [[Created by hacker: datvilaphop]];
+LMG2L["TextLabel2_54"]["Name"] = [[TextLabel2]];
+LMG2L["TextLabel2_54"]["Position"] = UDim2.new(0, 96, 0, 24);
+
+
+LMG2L["UIGradient_55"] = Instance.new("UIGradient", LMG2L["TextLabel2_54"]);
+LMG2L["UIGradient_55"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["TextButton10_56"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton10_56"]["TextWrapped"] = true;
+LMG2L["TextButton10_56"]["BorderSizePixel"] = 3;
+LMG2L["TextButton10_56"]["TextScaled"] = true;
+LMG2L["TextButton10_56"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton10_56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton10_56"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton10_56"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton10_56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton10_56"]["Text"] = [[message]];
+LMG2L["TextButton10_56"]["Name"] = [[TextButton10]];
+LMG2L["TextButton10_56"]["Position"] = UDim2.new(0, 118, 0, 116);
+
+
+LMG2L["UIGradient_57"] = Instance.new("UIGradient", LMG2L["TextButton10_56"]);
+LMG2L["UIGradient_57"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_58"] = Instance.new("UIStroke", LMG2L["TextButton10_56"]);
+
+
+
+LMG2L["LocalScript_59"] = Instance.new("LocalScript", LMG2L["TextButton10_56"]);
+
+
+
+LMG2L["TextButton24_5a"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton24_5a"]["TextWrapped"] = true;
+LMG2L["TextButton24_5a"]["BorderSizePixel"] = 3;
+LMG2L["TextButton24_5a"]["TextScaled"] = true;
+LMG2L["TextButton24_5a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton24_5a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton24_5a"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton24_5a"]["Size"] = UDim2.new(0, 438, 0, 18);
+LMG2L["TextButton24_5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton24_5a"]["Text"] = [[fling]];
+LMG2L["TextButton24_5a"]["Name"] = [[TextButton24]];
+LMG2L["TextButton24_5a"]["Position"] = UDim2.new(0, 6, 0, 326);
+
+
+LMG2L["UIGradient_5b"] = Instance.new("UIGradient", LMG2L["TextButton24_5a"]);
+LMG2L["UIGradient_5b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_5c"] = Instance.new("UIStroke", LMG2L["TextButton24_5a"]);
+
+
+
+LMG2L["LocalScript_5d"] = Instance.new("LocalScript", LMG2L["TextButton24_5a"]);
+
+
+
+LMG2L["TextButton21_5e"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton21_5e"]["TextWrapped"] = true;
+LMG2L["TextButton21_5e"]["BorderSizePixel"] = 3;
+LMG2L["TextButton21_5e"]["TextScaled"] = true;
+LMG2L["TextButton21_5e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton21_5e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton21_5e"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton21_5e"]["Size"] = UDim2.new(0, 140, 0, 28);
+LMG2L["TextButton21_5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton21_5e"]["Text"] = [[zieuijmaus]];
+LMG2L["TextButton21_5e"]["Name"] = [[TextButton21]];
+LMG2L["TextButton21_5e"]["Position"] = UDim2.new(0, 304, 0, 290);
+
+
+LMG2L["UIGradient_5f"] = Instance.new("UIGradient", LMG2L["TextButton21_5e"]);
+LMG2L["UIGradient_5f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_60"] = Instance.new("UIStroke", LMG2L["TextButton21_5e"]);
+
+
+
+LMG2L["TextButton19_61"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton19_61"]["TextWrapped"] = true;
+LMG2L["TextButton19_61"]["BorderSizePixel"] = 3;
+LMG2L["TextButton19_61"]["TextScaled"] = true;
+LMG2L["TextButton19_61"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton19_61"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton19_61"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton19_61"]["Size"] = UDim2.new(0, 140, 0, 24);
+LMG2L["TextButton19_61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton19_61"]["Text"] = [[Particles]];
+LMG2L["TextButton19_61"]["Name"] = [[TextButton19]];
+LMG2L["TextButton19_61"]["Position"] = UDim2.new(0, 304, 0, 184);
+
+
+LMG2L["UIGradient_62"] = Instance.new("UIGradient", LMG2L["TextButton19_61"]);
+LMG2L["UIGradient_62"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Color3.fromRGB(255, 255, 0)),ColorSequenceKeypoint.new(0.915, Color3.fromRGB(255, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+
+LMG2L["UIStroke_63"] = Instance.new("UIStroke", LMG2L["TextButton19_61"]);
+
+
+
+LMG2L["TextButton14_64"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton14_64"]["TextWrapped"] = true;
+LMG2L["TextButton14_64"]["BorderSizePixel"] = 3;
+LMG2L["TextButton14_64"]["TextScaled"] = true;
+LMG2L["TextButton14_64"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton14_64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton14_64"]["FontFace"] = Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton14_64"]["Size"] = UDim2.new(0, 102, 0, 24);
+LMG2L["TextButton14_64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton14_64"]["Text"] = [[fog]];
+LMG2L["TextButton14_64"]["Name"] = [[TextButton14]];
+LMG2L["TextButton14_64"]["Position"] = UDim2.new(0, 118, 0, 150);
+
+
+LMG2L["UIGradient_65"] = Instance.new("UIGradient", LMG2L["TextButton14_64"]);
+LMG2L["UIGradient_65"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.285, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(0.476, Color3.fromRGB(0, 255, 0)),ColorSequenceKeypoint.new(0.697, Co
